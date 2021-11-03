@@ -34,7 +34,7 @@ const Stock = (props) => {
                 <p>Low: ${stock.low}</p>
                 <p>Open: ${stock.open}</p>
                 </div>
-                <a className="backLink" href="/stocks"><button className="back">Go Back</button></a>    
+                <a className="backLink"href="/stocks"><button className="back">Go Back</button></a>    
             </div>
         )
     }
