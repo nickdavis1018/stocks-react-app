@@ -14,9 +14,7 @@ const Stock = (props) => {
         setStock(mainStock)
     }
 
-    useEffect(() => {
-        getStock()
-    })
+    useEffect(() => getStock(), [])
 
     const loaded = () => {
         return (

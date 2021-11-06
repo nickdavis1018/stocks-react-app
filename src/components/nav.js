@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Nav = (props) => {
   return (
     <div className="nav">
-    <h1 className="bannerTitle">The Stocks App</h1>
+    <a className="titleLink" href="/"><h1 className="bannerTitle">The Stocks App</h1></a>
     <div className="navContainer">
     <Link to="/">
         <div className="bannerLink">Home</div>

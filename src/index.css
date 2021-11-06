@@ -48,6 +48,10 @@ code {
   text-decoration: underline;
 }
 
+.titleLink{
+  text-decoration: none;
+}
+
 .stocksList{
   display: grid;
   grid-template-columns: repeat(4, 2fr);
